@@ -1,0 +1,24 @@
+{
+  "name": "proxy-jerry",
+  "version": "1.0.0",
+  "description": "Proxy to compile all modules for Kickstarter Page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skunkworks-LLC/Proxy-Jerry.git"
+  },
+  "author": "Jerry Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skunkworks-LLC/Proxy-Jerry/issues"
+  },
+  "homepage": "https://github.com/Skunkworks-LLC/Proxy-Jerry#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}

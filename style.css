@@ -1,0 +1,13 @@
+#main-app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+  #introduction {
+    flex: 1;
+  }
+
+  #root {
+    flex: 1;
+  }
