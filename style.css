@@ -1,0 +1,18 @@
+html, body {
+  display: flex;
+  width: 100%;
+}
+
+#main-app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+  #introduction {
+    flex: 1;
+  }
+
+  #root {
+    flex: 1;
+  }
