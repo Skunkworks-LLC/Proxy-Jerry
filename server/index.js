@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 
+app.use(express.static(__dirname + '/../public'))
 app.use('/projects/:id', express.static(__dirname + '/../public'));
 
 app.all('/projects/:id', (req, res) => {
-  console.log(req.url);
-  res.redirect(307, `${req.url}`)
+  const projectId = req.url.slice(9);
+  console.log(projectId);
+  res.redirect(307, `${projectId}`)
 });
 
 const PORT = process.env.PORT || 3000;
